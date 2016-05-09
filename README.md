@@ -17,19 +17,14 @@ To compile, run
 
 ```
 git clone https://github.com/tobwes/bayesiannetwork.git
-
 autoreconf --install
-
 ./configure
-
 make
 ```
 
 Then, to run some tests, e.g.
 
-`
-src/gneural_network tests/curve_fitting_quadratic_function.input
-`
+`src/gneural_network tests/curve_fitting_quadratic_function.input`
 
 If you have installed R, the RStatistics folder has a saved workspace with some scripts to display the results, e.g. stats_curve_fitting_quadratic()
 
