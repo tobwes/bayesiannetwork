@@ -1,0 +1,71 @@
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+*.lib
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.swp
+thumbs.db
+
+/Makefile
+/Makefile.in
+/aclocal.m4
+/autom4te.cache/
+/config.*
+/configure
+/m4/
+/stamp-h?
+.deps/
+.dirstamp
+
+
+#################
+# emacs ignores #
+#################
+
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# flymake-mode
+*_flymake.*
+
+# eshell files
+/eshell/history
+/eshell/lastdir
+
+# elpa packages
+/elpa/
+
+# reftex files
+*.rel
+
+# AUCTeX auto folder
+/auto/
+
+# cask packages
+.cask/
+dist/
+
+# Flycheck
+flycheck_*.el
+
+# server auth directory
+/server/
+
+# projectiles files
+.projectile
