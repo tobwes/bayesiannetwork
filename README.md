@@ -9,9 +9,13 @@ I have also tried the test "curve_fitting_square_root" and it runs well, too.
 
 ## How to compile
 
+There is a new dependency, namely lapacke. To install this in debian, run
+
+`apt-get install liblapacke liblapacke-dev`
+
 To compile, run
 
-`
+```
 git clone https://github.com/tobwes/bayesiannetwork.git
 
 autoreconf --install
@@ -19,7 +23,7 @@ autoreconf --install
 ./configure
 
 make
-`
+```
 
 Then, to run some tests, e.g.
 
